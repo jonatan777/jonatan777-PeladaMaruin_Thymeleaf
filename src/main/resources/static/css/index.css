@@ -70,22 +70,14 @@ footer{
 
 <!------------------------------------------------------>
 	
+	
 @media (max-width: 375px) { 
-
-
-
-
-
-
-}
-
-@media (max-width: 568px) { 
 
 	
 
 #site{
 	position: relative;
-	top: -500px;
+	top: -60px;
 	left: 380px;
 	width: 100%;
 	padding: 0px;
@@ -94,15 +86,41 @@ footer{
 	background: rgba(255,255,255,0.10); /* fundo branco com um pouco de transparência */
   transform: scale(0.6, 0.6); /* Igual a scaleX(2) scaleY(0.5) */
   transform-origin: left;
-  background-color: green;
+  background-color: ;
 
 }
 
 footer{
 	position: relative;
-	top:-200px;
+	top: 100px;
 	
 }
 
 }
+	
+	
+	
+	
+	
+	
+	
+@media (max-width: 600px) { 
+
+
+#site{
+	position: relative;
+	top: 0px;
+	left: 300px;
+	width: 100%;
+	padding: 0px;
+	/* por causa do posicionamento absoluto temos que usar margem negativa para centralizar o site */
+	background: #FFF; /* fundo branco para navegadores que não suportam rgba */
+	background: rgba(255,255,255,0.10); /* fundo branco com um pouco de transparência */
+
+}
+
+
+}
+
+
 

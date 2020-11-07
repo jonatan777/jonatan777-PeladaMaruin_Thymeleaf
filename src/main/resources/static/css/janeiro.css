@@ -17,11 +17,18 @@ body, html {
  
 
 
-
-th, td, a, #msg {
+th, td, a {
 	ont-family: Arial, Tahoma, sans-serif;
 	color: white;
 	align:center;
+}
+
+#msg{
+	position: relative;
+	top: 50px;
+	left: 0px;
+	ont-family: Arial, Tahoma, sans-serif;
+	color: white;
 } 
 
 #fundo-externo {
@@ -42,8 +49,9 @@ th, td, a, #msg {
 #fundo img {
 	width: 100%; /* com isso imagem ocupará toda a largura da tela. Se colocarmos height: 100% também, a imagem irá distorcer */
 	position: relative;
-    top: -200px;
+    top: 40px;
 }
+
 
 p {
 	margin-bottom: 1.5em;
@@ -51,28 +59,32 @@ p {
 	color: white;
 }
 
+
+
 footer{
 	position: relative;
-	top: 550px;
+	top:550px;
 	
 }
 
 
 
 
-@media (max-width: 568px) { 
 
 
- 
- #fundo img {
-	/* com isso imagem ocupará toda a largura da tela. Se colocarmos height: 100% também, a imagem irá distorcer */
+
+
+@media (max-width: 375px) { 
+
+
+
+#fundo img {
+	width: 100%; /* com isso imagem ocupará toda a largura da tela. Se colocarmos height: 100% também, a imagem irá distorcer */
 	position: relative;
-	top: 20px;
-	width: 100%;
-}
-
-
-
+	top: 0px;
 
 }
+
+}
+
 
