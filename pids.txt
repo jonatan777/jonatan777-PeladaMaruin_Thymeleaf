@@ -1,0 +1,7 @@
+java      8143         jonatan   51u  IPv6 105877      0t0  TCP 127.0.0.1:43721 (LISTEN)
+java      8143         jonatan  109u  IPv6 105180      0t0  TCP 127.0.0.1:44225 (LISTEN)
+java      8143         jonatan  220u  IPv6 102361      0t0  TCP 127.0.0.1:6942 (LISTEN)
+java      8143         jonatan  275u  IPv6 104572      0t0  TCP 127.0.0.1:63342 (LISTEN)
+java      8646         jonatan   66u  IPv6 106830      0t0  TCP 127.0.0.1:60611 (LISTEN)
+java      8646         jonatan   67u  IPv6 106831      0t0  TCP 127.0.0.1:40893 (LISTEN)
+
