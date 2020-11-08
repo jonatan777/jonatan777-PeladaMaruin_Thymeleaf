@@ -38,20 +38,26 @@ body, html {
 
 #site {
 	position: relative;
-	top: 0px;
-	left: 600px;
-	width: 60%;
-	padding: 200px;
+	top: 100px;
+	left: 300px;
+	width: 80%;
+	padding: 50px;
 	margin-left: -300px; /* por causa do posicionamento absoluto temos que usar margem negativa para centralizar o site */
 	background: #FFF; /* fundo branco para navegadores que não suportam rgba */
 	background: rgba(255,255,255,0.10); /* fundo branco com um pouco de transparência */
 }
 
+
+#texto{
+	
+	color: black;
+}
+
 p{
-	margin-bottom: 1.5em;
+	margin-bottom: 2.5em;
 	font-family: Arial, Tahoma, sans-serif;
 	color: white;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 
@@ -63,64 +69,16 @@ h1{
 
 footer{
 	position: relative;
-	top:300px;
+	top:500px;
 	
 }
 
 
 <!------------------------------------------------------>
 	
-	
-@media (max-width: 375px) { 
 
 	
 
-#site{
-	position: relative;
-	top: -60px;
-	left: 380px;
-	width: 100%;
-	padding: 0px;
-	/* por causa do posicionamento absoluto temos que usar margem negativa para centralizar o site */
-	background: #FFF; /* fundo branco para navegadores que não suportam rgba */
-	background: rgba(255,255,255,0.10); /* fundo branco com um pouco de transparência */
-  transform: scale(0.6, 0.6); /* Igual a scaleX(2) scaleY(0.5) */
-  transform-origin: left;
-  background-color: ;
-
-}
-
-footer{
-	position: relative;
-	top: 100px;
-	
-}
-
-}
-	
-	
-	
-	
-	
-	
-	
-@media (max-width: 600px) { 
-
-
-#site{
-	position: relative;
-	top: 0px;
-	left: 300px;
-	width: 100%;
-	padding: 0px;
-	/* por causa do posicionamento absoluto temos que usar margem negativa para centralizar o site */
-	background: #FFF; /* fundo branco para navegadores que não suportam rgba */
-	background: rgba(255,255,255,0.10); /* fundo branco com um pouco de transparência */
-
-}
-
-
-}
 
 
 

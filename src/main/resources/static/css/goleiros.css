@@ -16,17 +16,7 @@ body, html {
 
  
  
- #table{
-	position: relative;
-	top: 100px;
-	left: 180px;
-	width: 70%;
-	padding: 20px;
-	margin-left: -300px; /* por causa do posicionamento absoluto temos que usar margem negativa para centralizar o site */
-	background: #FFF; /* fundo branco para navegadores que não suportam rgba */
-	background: rgba(255,255,255,0.15); /* fundo branco com um pouco de transparência */
-	 border-color: white;
-}
+
 
 th, td, a {
 	ont-family: Arial, Tahoma, sans-serif;
@@ -77,57 +67,4 @@ footer{
 	top:550px;
 	
 }
-
-
-
-
-@media (max-width: 375px) { 
-
-#table{
-	position: relative;
-	top: 0px;
-	left: 280px;
-	width: 100px;
-	/* por causa do posicionamento absoluto temos que usar margem negativa para centralizar o site */
-	background: #FFF; /* fundo branco para navegadores que não suportam rgba */
-	background: rgba(255,255,255,0.10); /* fundo branco com um pouco de transparência */
-}
-
-#fundo img {
-	width: 100%; /* com isso imagem ocupará toda a largura da tela. Se colocarmos height: 100% também, a imagem irá distorcer */
-	position: relative;
-	top: 0px;
-
-}
-
-
-
-}
-
-
-
-@media (max-width: 568px) { 
-
-#table{
-	position: relative;
-	top: 0px;
-	left: 230px;
-	width: 100%;
-	/* por causa do posicionamento absoluto temos que usar margem negativa para centralizar o site */
-	background: #FFF; /* fundo branco para navegadores que não suportam rgba */
-	background: rgba(255,255,255,0.10); /* fundo branco com um pouco de transparência */
-    transform: scale(0.6, 0.6); /* Igual a scaleX(2) scaleY(0.5) */
-    transform-origin: left;
-    background-color: green;
-}
-
-#fundo img {
-	width: 100%; /* com isso imagem ocupará toda a largura da tela. Se colocarmos height: 100% também, a imagem irá distorcer */
-	position: relative;
-	top: 0px;
-
-}
-
-}
-
 

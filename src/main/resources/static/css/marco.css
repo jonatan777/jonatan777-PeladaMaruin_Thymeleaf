@@ -57,22 +57,3 @@ footer{
 	
 }
 
-
-
-
-@media (max-width: 568px) { 
-
-
- 
- #fundo img {
-	/* com isso imagem ocupará toda a largura da tela. Se colocarmos height: 100% também, a imagem irá distorcer */
-	position: relative;
-	top: 20px;
-	width: 100%;
-}
-
-
-
-
-}
-
